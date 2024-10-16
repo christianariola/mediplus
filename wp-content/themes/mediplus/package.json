@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "browser-sync": "^3.0.3",
+    "postcss": "^8.4.47"
+  },
+  "name": "mediplus",
+  "version": "1.0.0",
+  "description": "Test application wordpress",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "tailwindcss build tailwind.css -o style.css",
+    "start": "browser-sync start --proxy http://localhost/mediplus --files 'style.css, *.css, *.php. ./*.php, ./**/*.php'"
+  },
+  "author": "Christian",
+  "license": "ISC"
+}

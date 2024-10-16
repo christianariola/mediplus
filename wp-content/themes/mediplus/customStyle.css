@@ -1,0 +1,10 @@
+.page-numbers.current {
+    background: #333;
+    padding: 7px;
+}
+
+.news-head img {
+    max-height: 230px;
+    width: auto;
+    object-fit: cover;
+}
